@@ -2,6 +2,13 @@ Secure Software Requirements
 ============================
 
 ## Confidentiality ##
+ * Other than password fields, are there any other fields which should be
+ masked?
+ * Passwords are stored using the one-way SHA512 hashing algorithm, with salt
+ and streching to 15 rounds. If other standards are required, please list them.
+ * Transport layer security (TLS) is recommended for protecting transaction
+ information and for PCI compliance. Specify any specific exceptions.
+
 ## Integrity ##
 ## Availability ##
  * Demo, staging, test server IP restrictions
