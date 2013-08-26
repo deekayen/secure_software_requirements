@@ -23,6 +23,7 @@ Secure Software Requirements
 ## Sequencing and timing ##
 ## Archiving ##
 ## International ##
+  * Section 508
 ## Deployment environment ##
   * Code review
   * Role separation
