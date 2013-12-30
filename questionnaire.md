@@ -20,6 +20,10 @@ Secure Software Requirements
    * Roles within existing users
  * Password policy
    * Should passwords be masked on the login screen?
+   * What is to be [considered](http://lifehacker.com/5937303/your-clever-password-tricks-arent-protecting-you-from-todays-hackers) to be a "good enough" & "[best](http://howsecureismypassword.net/)" password?
+     * Should new passwords be tested server-side?
+     * Should existing passwords be tested server-side?
+     * Should new passwords be tested client-side?
 
 ## Authorization ##
 ## Auditing ##
